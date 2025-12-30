@@ -1,0 +1,35 @@
+{
+  "products": [
+    {
+      "productCode": "BANANA",
+      "priceVersions": [
+        {
+          "version": "v1",
+          "price": 0.50,
+          "effectiveFrom": "2024-01-01T00:00:00"
+        }
+      ]
+    },
+    {
+      "productCode": "ORANGE",
+      "priceVersions": [
+        {
+          "version": "v1",
+          "price": 0.30,
+          "effectiveFrom": "2024-01-01T00:00:00"
+        }
+      ]
+    }
+	,
+	{
+      "productCode": "APPLE",
+      "priceVersions": [
+        {
+          "version": "v1",
+          "price": 0.60,
+          "effectiveFrom": "2024-01-01T00:00:00"
+        }
+      ]
+    }
+  ]
+}

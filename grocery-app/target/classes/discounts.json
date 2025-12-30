@@ -1,0 +1,22 @@
+{
+  "discounts": [
+    {
+      "productCode": "BANANA",
+      "discountCode": "BUY2GET1",
+      "expression": "(#quantity / (#x + #y)) * #y * #price",
+      "params": {
+        "x": 2,
+        "y": 1
+      }
+    },
+    {
+      "productCode": "ORANGE",
+      "discountCode": "THREE_FOR_075",
+      "expression": "(#quantity / #bundle) * ((#bundle * #price) - #offerPrice)",
+      "params": {
+        "bundle": 3,
+        "offerPrice": 0.75
+      }
+    }
+  ]
+}
